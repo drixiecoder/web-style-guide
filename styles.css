@@ -1,0 +1,158 @@
+.categories li {
+    display: inline;
+    font-family: 'Slabo 13px';
+    text-align: center;
+    padding: 10px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Slabo 13px';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/slabo13px/v8/11hEGp_azEvXZUdSBzzRQKCh2g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.box {
+    border: gray solid 1px;
+    padding: 10px;
+    margin-right: 650px;
+}
+h1, h2 {
+    font-family: 'Lato';
+}
+p {
+    font-family: 'Slabo 13px';
+}
+
+table, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    padding: 30px;
+    margin: 40px 0;
+    font-size: 16px;
+}
+th {
+    border: 1px black solid;
+    padding: 20px;
+    font-size: 18px;
+}
+tbody {
+    text-align: center;
+}
+
+.mono1 {
+    background-color: #EAA585;
+}
+.mono2 {
+    background-color: #E6733E;
+}
+.mono3 {
+    background-color: #66483A;
+    color: white
+}
+
+.comple1 {
+    background-color: #FF915E;
+}
+.comple2 {
+    background-color: #E6733E;
+}
+.comple3 {
+    background-color: #0B998A;
+}
+
+@font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/juliussansone/v9/1Pt2g8TAX_SGgBGUi0tGOYEga5WOwnsX.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/monda/v10/TK3tWkYFABsmjsphPho.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.julius h3{
+    font-family: 'Julius Sans One';
+}
+.julius p{
+    font-family: 'Julius Sans One';
+}
+.monda h3 {
+    font-family: 'Monda';
+}
+.monda p {
+    font-family: 'Monda';
+}
+
+.buttonsdiv {
+    text-align: center;
+    word-spacing: 10px;
+}
+.button1 {
+    font-size: 30px;
+    padding: 20px;
+    transition-duration: 0.3s;
+    color: black;
+    background-color: #FF915E;
+    border: none;
+    border-radius: 15px;
+}
+
+.button1:hover {
+    background-color: #E6733E;
+    font-weight: 500;
+}
+.button2 {
+    font-size: 30px;
+    padding: 20px;
+    transition-duration: 0.3s;
+    color: black;
+    background-color: #FF915E;
+    border: none;
+    border-radius: 15px;
+    
+}
+.button2:hover {
+    background-color: white;
+    border: solid #0B998A 2px;
+    color: #32ac9f;
+}
+.button3 {
+    font-size: 30px;
+    padding: 20px;
+    transition-duration: 0.3s;
+    color: white;
+    background-color: #66483A;
+    border: none;
+    border-radius: 15px;
+    box-shadow: lightslategray 0 10px 10px 0;
+}
